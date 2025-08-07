@@ -1,0 +1,9 @@
+name: Say wf2
+on:
+  workflow_dispatch: null
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Hello
+        run: echo "wf2!"
